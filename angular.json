@@ -65,7 +65,8 @@
               "buildTarget": "game-catalog-frontend:build:production"
             },
             "development": {
-              "buildTarget": "game-catalog-frontend:build:development"
+              "buildTarget": "game-catalog-frontend:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
